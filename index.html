@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokunz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portofolio|Pokunz</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="links">
+            <a href="#" class="active">About</a>
+            <a href="#works">Portfolio</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="about">
+        <div class="left">
+            <h3>Front-End Developer, UI/UX Designer, and Game Developer.</h3>
+            <div class="info">
+                <h2>Vito Belvino Arrazaq</h2>
+                <p>I craft seamless and engaging digital experiences.</p>
+                <div class="buttons">
+                    <button class="hire" onclick="location.href='mailto:pokunz215@gmail.com'">
+                        Hire me <i class="fas fa-plus"></i>
+                    </button>
+                    <button class="email" onclick="copyEmail()">
+                        Copy Email <i class="far fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <a class="online" href="#"><i class="fas fa-circle"></i> Available For Job</a>
+            <img src="tree-me.jpg">
+        </div>
+    </div>
+
+    <div class="works" id="works">
+        <div class="left">
+            <h3><i class="fas fa-circle"></i> Recent Works</h3>
+            <div class="works-list">
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">POKUNZ Studio</h5>
+                        <p>2023 - Present</p>
+                    </div>
+                    <p>My indie game studio</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Junior Journal Designer</h5>
+                        <p>2024 - Present</p>
+                    </div>
+                    <p>Part time</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Thesis</h5>
+                        <p>2024</p>
+                    </div>
+                    <p>Group Project</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>UI/UX Designer</h5>
+                        <p>2024 - Present</p>
+                    </div>
+                    <p>Part Time</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="item">
+                <a href="#">POKUNZ Studio</a>
+                <p>Founder of an indie game studio focused on coding game logic and exploring new mechanics.</p>
+            </div>
+            
+            <div class="item">
+                <a href="#">Junior Journal Designer</a>
+                <p>Designing professional, well-structured journals with a focus on clarity and creativity.</p>
+            </div>
+            
+            
+            <div class="item">
+                <a href="#">Thesis</a>
+                <p>Researching the effects of social media and performance pressure on anxiety in students.</p>
+            </div>
+            
+            <div class="item">
+                <a href="#">UI/UX Design</a>
+                <p>Part-time UI/UX designer delivering visually appealing and functional user interfaces.</p>
+            </div>
+            
+            <div class="item">
+                <a href="#">Collaborative Projects</a>
+                <p>Working with cross-functional teams to bring innovative ideas to life.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <a href="#" id="contact">My Portfolio</a>
+        <div class="socials">
+            <a href="https://github.com/POKUNZ">Github</a>
+            <a href="https://www.instagram.com/pokunz_?igsh=MXY1eG9tMzQzZjhyeg==">Instagram</a>
+        </div>
+        <a class="online" href="#"><i class="fas fa-circle"></i> Available For Job</a>
+    </footer>
+
+     <script>
+        function copyEmail() {
+            const email = 'pokunz215@gmail.com';
+            navigator.clipboard.writeText(email).then(() => {
+                alert('Email copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy email: ', err);
+            });
+        }
+   </script>
+
+</body>
+
+</html>

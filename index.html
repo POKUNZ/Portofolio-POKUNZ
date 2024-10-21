@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio|Pokunz</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fas fa-code"></i>
+            <a href="https://www.instagram.com/pokunz_/profilecard/?igsh=OWRzeXJzc3Frbmtr">POKUNZ</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <button>Contact Me</button>
+        <button id="menuButton" onclick="openMenu()" onenter="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hey, I'm Vito Belvino Arrazaq</h5>
+            <h3>Front-End Developer, UI/UX Designer, and Game Developer.</h3>
+            <p>
+                I craft seamless and engaging digital experiences.
+                I blend creativity with technical expertise to develop unique games that captivate players and push the boundaries of interactive entertainment.
+            </p>
+            <button onclick="copyEmail()">Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="tree-me.jpg">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>My Skills</h5>
+        <h3>My Expertise</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Indie Game Studio</h4>
+                <p>
+                    Founder of an indie game studio focused on coding game logic and exploring new mechanics.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Design Solutions</h4>
+                <p>
+                    Designing professional, well-structured journals with a focus on clarity and creativity.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>UI & UX Design</h4>
+                <p>
+                    Part-time UI/UX designer delivering visually appealing and functional user interfaces.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Webflow Coding</h4>
+                <p>
+                    Webflow coding course for freshers.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Me</h3>
+            <p>
+                i do stuff
+            </p>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Recent Work</h5>
+            </div>
+        </div>
+
+        <div class="portfo-items" id="portfo-items">
+            <div class="item">
+                <div class="info">
+                    <h4>POKUNZ Studio</h4>
+                    <p>
+                        indie game studio
+                    </p>
+                    <p>CEO</p>
+                    <a href="#">2024 - Present</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="info">
+                    <h4>Junior Journal Designer</h4>
+                    <p>
+                        2024 - Present
+                    </p>
+                    <p>ITL Trisakti</p>
+                    <a href="#">Full Time Job</i></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="info">
+                    <h4>UI/UX Designer</h4>
+                    <p>
+                        2024 - Present
+                    </p>
+                    <p>ITL Trisakti</p>
+                    <a href="#">Part-Time</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="portfo-items">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/pokunz_/profilecard/?igsh=OWRzeXJzc3Frbmtr"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/POKUNZ"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+             Pokunz
+            </p>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
